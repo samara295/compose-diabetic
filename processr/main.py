@@ -14,7 +14,6 @@ app = FastAPI(title="processr", docs_url="/")
 # class which is expected in the payload while training
 class DataIn(BaseModel):
     age: float
-    sex: str
     bmi: float
     bp: float
     tc: float

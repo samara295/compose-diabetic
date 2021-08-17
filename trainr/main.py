@@ -19,7 +19,6 @@ app.add_event_handler("startup", init_model)
 # class which is expected in the payload while training
 class TrainIn(BaseModel):
     age: float
-    sex: str
     bmi: float
     bp: float
     tc: float

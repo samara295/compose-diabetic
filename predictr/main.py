@@ -9,7 +9,6 @@ app = FastAPI(title="predictr", docs_url="/")
 # class which is expected in the payload
 class QueryIn(BaseModel):
     age: float
-    sex: str
     bmi: float
     bp: float
     tc: float

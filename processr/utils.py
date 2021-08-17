@@ -11,7 +11,6 @@ def process_data(data):
     processed = [
         {
             "age": d.age,
-            "sex": d.sex,
             "bmi": d.bmi,
             "bp": d.bp,
             "tc": d.tc,
