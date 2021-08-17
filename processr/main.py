@@ -17,12 +17,12 @@ class DataIn(BaseModel):
     sex: str
     bmi: float
     bp: float
-    s1 tc: float
-    s2 ldl: float
-    s3 hdl: float
-    s4 tch: float
-    s5 tlg: float
-    s6 glu: float
+    tc: float
+    ldl: float
+    hdl: float
+    tch: float
+    tlg: float
+    glu: float
     diabetic_status: str
 
 
