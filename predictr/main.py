@@ -17,7 +17,7 @@ class QueryIn(BaseModel):
     tch: float
     tlg: float
     glu: float
-    diabetic_status: str    
+       
 
 
 # class which is returned in the response
