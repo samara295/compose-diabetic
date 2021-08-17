@@ -10,11 +10,17 @@ r_classes = {y: x for x, y in classes.items()}
 def process_data(data):
     processed = [
         {
-            "sepal_length": d.sepal_length,
-            "sepal_width": d.sepal_length,
-            "petal_length": d.petal_length,
-            "petal_width": d.petal_width,
-            "flower_class": d.flower_class,
+            "age": d.age,
+            "sex": d.sex,
+            "bmi": d.bmi,
+            "bp": d.bp,
+            "tc": d.tc,
+            "ldl": d.ldl,
+            "hdl": d.hdl,
+            "tch": d.tch,
+            "tlg": d.tlg,
+            "glu": d.glu,
+            "diabetic_status": d.diabetic_status,
         }
         for d in data
     ]

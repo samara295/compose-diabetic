@@ -1,6 +1,6 @@
 # Docker Demo/Assignment
 
-https://github.com/PGCSEDS-IIITH/compose-iris contains code which demonstrates docker and docker-compose using the IRIS dataset (https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html)
+https://github.com/samara295/compose-diabetic contains code which demonstrates docker and docker-compose using the Diabetic dataset (https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)
 
 
 ## Pre-requisites
@@ -9,12 +9,7 @@ https://github.com/PGCSEDS-IIITH/compose-iris contains code which demonstrates d
 
 ## Running Instructions
 - Create a fork of the repo using the `fork` button.
-- Clone your fork using `git clone https://www.github.com/<your-username>/compose-iris.git`
+- Clone your fork using `git clone https://www.github.com/<your-username>/compose-diabetic.git`
 - Build the images using `docker-compose build`
 - Spin up the containers using `docker-compose up`
 
-## Assignment Task
-Implement this stack for some dataset of your choice
-
-## Submission
-Submit a link to your forked repository
