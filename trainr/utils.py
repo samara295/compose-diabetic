@@ -3,7 +3,7 @@ import pickle
 from sklearn.naive_bayes import GaussianNB
 
 # define the class encodings and reverse encodings
-classes = {0: "Diabetic", 1: "Non-Diabetic"}
+classes = {0: "diabetic", 1: "nondiabetic"}
 r_classes = {y: x for x, y in classes.items()}
 
 # function to train and load the model during startup
